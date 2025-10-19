@@ -1,0 +1,19 @@
+# Example small graph with 5 nodes
+
+# vertices
+1,11
+2,12
+3,22
+4,32
+5,33
+
+# edges
+1,2,7
+2,3,4
+3,4,3
+2,5,6
+5,4,2
+
+# source and destination
+S,1
+D,4
