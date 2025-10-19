@@ -47,7 +47,7 @@ Each input `.txt` file defines:
 S,1
 D,4
 
-
+``` 
 ## Usage
 
 Run the script from the terminal as follows:
