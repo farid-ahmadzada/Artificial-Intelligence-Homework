@@ -46,3 +46,40 @@ Each input `.txt` file defines:
 # source and destination
 S,1
 D,4
+
+
+## Usage
+
+Run the script from the terminal as follows:
+
+```bash
+python Astar_three_modes.py <input_file>
+```
+
+**Example:**
+
+```bash
+python Astar_three_modes.py astar_small.txt
+```
+
+This will print results for all three modes in the following format:
+
+```
+MODE: UCS
+Optimal cost: <number | NO PATH>
+Path: <S -> ... -> D | omitted if NO PATH>
+Expanded: <int>
+Pushes: <int>
+Max frontier: <int>
+Runtime (s): <float>
+```
+
+---
+
+### Optional Graph Visualization
+
+To visualize the graph and the path, use the `--show` flag:
+
+```bash
+python Astar_three_modes.py <input_file> --show
+```
