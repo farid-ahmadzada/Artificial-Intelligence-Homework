@@ -16,19 +16,9 @@ Each mode reports:
 
 ---
 
-### 📁 File Structure
 
-| File | Description |
-|------|--------------|
-| `Astar_three_modes.py` | Core A\* implementation (UCS, A\* Euclidean, A\* Manhattan) |
-| `astar_small.txt` | Small test graph (5 nodes) |
-| `astar_medium.txt` | Medium test graph (6x6 grid, 36 nodes) |
-| `Astar_three_modes_visual.py` | Same as above + graph visualization feature |
-| `README.md` | This documentation |
 
----
-
-### 🧩 Input File Format
+### Input File Format
 
 Each input `.txt` file defines:
 1. **Vertices** → `<id>,<cell>`  
